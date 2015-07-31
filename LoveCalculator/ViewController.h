@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *firstName;
+@property (weak, nonatomic) IBOutlet UITextField *secondName;
+@property (weak, nonatomic) IBOutlet UILabel *percentage;
+@property (weak, nonatomic) IBOutlet UIButton *calCulate;
 
 @end
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6C335EEDBB1F539101A5AA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4CBDF1626D14AEA1E519E9 /* libPods.a */; };
 		43744E571B68E97B00099598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43744E561B68E97B00099598 /* main.m */; };
 		43744E5A1B68E97B00099598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43744E591B68E97B00099598 /* AppDelegate.m */; };
 		43744E5D1B68E97B00099598 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43744E5C1B68E97B00099598 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		43744E621B68E97B00099598 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43744E611B68E97B00099598 /* Images.xcassets */; };
 		43744E651B68E97B00099598 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43744E631B68E97B00099598 /* LaunchScreen.xib */; };
 		43744E711B68E97B00099598 /* LoveCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43744E701B68E97B00099598 /* LoveCalculatorTests.m */; };
+		43DF7FD41B69E99A005D7DB5 /* love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43DF7FD31B69E99A005D7DB5 /* love.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		43744E6A1B68E97B00099598 /* LoveCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43744E6F1B68E97B00099598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43744E701B68E97B00099598 /* LoveCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveCalculatorTests.m; sourceTree = "<group>"; };
+		43DF7FD31B69E99A005D7DB5 /* love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = love.jpg; sourceTree = "<group>"; };
+		868F2B748CFCA32816390675 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C4401A986BAAF39097BA86D4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CA4CBDF1626D14AEA1E519E9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6C335EEDBB1F539101A5AA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +73,8 @@
 				43744E531B68E97B00099598 /* LoveCalculator */,
 				43744E6D1B68E97B00099598 /* LoveCalculatorTests */,
 				43744E521B68E97B00099598 /* Products */,
+				CB9EAC0602BCA81E61783E32 /* Pods */,
+				E51882E23B4D2092CBDF46BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +95,7 @@
 				43744E5B1B68E97B00099598 /* ViewController.h */,
 				43744E5C1B68E97B00099598 /* ViewController.m */,
 				43744E5E1B68E97B00099598 /* Main.storyboard */,
+				43DF7FD31B69E99A005D7DB5 /* love.jpg */,
 				43744E611B68E97B00099598 /* Images.xcassets */,
 				43744E631B68E97B00099598 /* LaunchScreen.xib */,
 				43744E541B68E97B00099598 /* Supporting Files */,
@@ -119,6 +129,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CB9EAC0602BCA81E61783E32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				868F2B748CFCA32816390675 /* Pods.debug.xcconfig */,
+				C4401A986BAAF39097BA86D4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E51882E23B4D2092CBDF46BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA4CBDF1626D14AEA1E519E9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43744E741B68E97B00099598 /* Build configuration list for PBXNativeTarget "LoveCalculator" */;
 			buildPhases = (
+				B5B3E4A5F79BD7A69D25DA67 /* Check Pods Manifest.lock */,
 				43744E4D1B68E97B00099598 /* Sources */,
 				43744E4E1B68E97B00099598 /* Frameworks */,
 				43744E4F1B68E97B00099598 /* Resources */,
+				0EECE09DDD3A411B16FA2758 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43744E601B68E97B00099598 /* Main.storyboard in Resources */,
+				43DF7FD41B69E99A005D7DB5 /* love.jpg in Resources */,
 				43744E651B68E97B00099598 /* LaunchScreen.xib in Resources */,
 				43744E621B68E97B00099598 /* Images.xcassets in Resources */,
 			);
@@ -213,6 +243,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EECE09DDD3A411B16FA2758 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B3E4A5F79BD7A69D25DA67 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43744E4D1B68E97B00099598 /* Sources */ = {
@@ -345,6 +408,7 @@
 		};
 		43744E751B68E97B00099598 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868F2B748CFCA32816390675 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoveCalculator/Info.plist;
@@ -355,6 +419,7 @@
 		};
 		43744E761B68E97B00099598 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4401A986BAAF39097BA86D4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoveCalculator/Info.plist;
@@ -416,6 +481,7 @@
 				43744E761B68E97B00099598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43744E771B68E97B00099598 /* Build configuration list for PBXNativeTarget "LoveCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +490,7 @@
 				43744E791B68E97B00099598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

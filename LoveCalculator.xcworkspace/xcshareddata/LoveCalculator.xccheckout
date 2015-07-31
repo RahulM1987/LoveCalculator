@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4B302EC2-3787-44D4-970B-DC189251827A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LoveCalculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>704E042A9A2164D9B54DC417A16B5D39FDD7AB2F</key>
+		<string>https://github.com/RahulM1987/LoveCalculator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LoveCalculator.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>704E042A9A2164D9B54DC417A16B5D39FDD7AB2F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/RahulM1987/LoveCalculator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>704E042A9A2164D9B54DC417A16B5D39FDD7AB2F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>704E042A9A2164D9B54DC417A16B5D39FDD7AB2F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LoveCalculator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
